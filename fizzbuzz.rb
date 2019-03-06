@@ -7,6 +7,14 @@ def fizzbuzz(int)
     elsif int % 5 == 0 
     "Buzz"
     elsif int % 15 == 0
-    "Fizzbuzz"    
+    "Fizzbuzz"
+  else 
+    nil
   end
 end
+
+fizzbuzz(3)
+fizzbuzz(5)
+fizzbuzz(15)
+fizzbuzz(30)
+fizzbuss(43)
